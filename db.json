@@ -1,0 +1,316 @@
+{
+  "user": [
+    {
+      "id": "a1d1",
+      "fname": "ram",
+      "lname": "raj",
+      "email": "ram@gmail.com",
+      "password": "12345678",
+      "cpassword": "12345678"
+    },
+    {
+      "id": "85ba",
+      "fname": "rishabh",
+      "lname": "raj",
+      "email": "rishabh@gmail.com",
+      "password": "12345678",
+      "cpassword": "12345678"
+    },
+    {
+      "id": "d5a6",
+      "fname": "kumar",
+      "lname": "roy",
+      "email": "roy@gmai.com",
+      "password": "12345678",
+      "cpassword": "12345678"
+    },
+    {
+      "id": "724b",
+      "fname": "naveen",
+      "lname": "pati",
+      "email": "naveen@gmail.com",
+      "password": "12345678",
+      "cpassword": "12345678"
+    },
+    {
+      "id": "7a78",
+      "fname": "sameer",
+      "lname": "reddy",
+      "email": "sameer@gmail.com",
+      "password": "12345678",
+      "cpassword": "12345678"
+    },
+    {
+      "id": "d78c",
+      "fname": "Ridhi",
+      "lname": "kumari",
+      "email": "ridhi@gmail.com",
+      "password": "12345678",
+      "cpassword": "12345678"
+    }
+  ],
+  "userScores": [
+    {
+      "id": "b295",
+      "name": "Rishabh@gmail.com",
+      "score": 1
+    },
+ 
+    {
+      "id": "310d",
+      "name": "ram@gmail.com",
+      "score": 10
+    },
+    {
+      "id": "3e65",
+      "name": "ridhi@gmail.com",
+      "score": 6
+    }
+  ],
+  "admin": [
+    {
+      "id": "1",
+      "email": "rishabh@abc.com",
+      "password": "12345678",
+      "name": "Rishabh Raj",
+      "contact": "8303932445"
+    },
+    {
+      "email": "rahul@abc.com",
+      "password": "12345678",
+      "name": "Rahul Raj",
+      "contact": "83039324456",
+      "id": "9f68"
+    }
+  ],
+  "questions": [
+    {
+      "id": "691d",
+      "subject": "HTML",
+      "questions": [
+        {
+          "question": "What does HTML stand for?",
+          "options": [
+            "Hyper Text Markup Language",
+            "Hyper Text Makeup Language",
+            "Hyper Technical Makeup Language",
+            "Hyper Text Markup local"
+          ],
+          "correctOption": "Hyper Text Markup Language"
+        },
+        {
+          "question": "Which of the following elements is used for creating a hyperlink?",
+          "options": [
+            "<link>",
+            "<a>",
+            "<href>",
+            "<hyperlink>"
+          ],
+          "correctOption": "<a>"
+        },
+        {
+          "question": "What is the correct HTML element for the largest heading?",
+          "options": [
+            "<h6>",
+            "<h1>",
+            "<heading>",
+            "<h5>"
+          ],
+          "correctOption": "<h1>"
+        },
+        {
+          "question": "What does the <br> tag do?",
+          "options": [
+            "Inserts a line break",
+            "Creates a new paragraph",
+            "Bold text",
+            "Inserts a horizontal line"
+          ],
+          "correctOption": "Inserts a line break"
+        },
+        {
+          "question": "Which attribute is used to define inline styles?",
+          "options": [
+            "style",
+            "font",
+            "class",
+            "styles"
+          ],
+          "correctOption": "style"
+        },
+        {
+          "question": "What is the purpose of the <title> tag?",
+          "options": [
+            "Defines the title of the document",
+            "Defines the main heading",
+            "Sets the document's encoding",
+            "Creates a link"
+          ],
+          "correctOption": "Defines the title of the document"
+        },
+        {
+          "question": "Which HTML element is used to specify a footer for a document?",
+          "options": [
+            "<bottom>",
+            "<footer>",
+            "<section>",
+            "<aside>"
+          ],
+          "correctOption": "<footer>"
+        },
+        {
+          "question": "What does the <img> tag require?",
+          "options": [
+            "src attribute",
+            "href attribute",
+            "alt attribute",
+            "link attribute"
+          ],
+          "correctOption": "src attribute"
+        },
+        {
+          "question": "How can you create an unordered list in HTML?",
+          "options": [
+            "<ol>",
+            "<ul>",
+            "<li>",
+            "<list>"
+          ],
+          "correctOption": "<ul>"
+        },
+        {
+          "question": "Which of the following is a semantic HTML element?",
+          "options": [
+            "<div>",
+            "<span>",
+            "<header>",
+            "<section>"
+          ],
+          "correctOption": "<header>"
+        }
+      ]
+    },
+    {
+      "id": "ee52",
+      "subject": "CSS",
+      "questions": [
+        {
+          "question": "What does the z-index property do in CSS?",
+          "options": [
+            "It defines the order in which elements are stacked on top of one another.",
+            "It specifies the size of an element's border.",
+            "It controls the opacity of an element.",
+            "It sets the margin space around an element."
+          ],
+          "correctOption": "It defines the order in which elements are stacked on top of one another."
+        },
+        {
+          "question": "Which of the following is the correct way to set the background color in CSS?",
+          "options": [
+            "background-color: #FFFFFF;",
+            "bgcolor: #FFFFFF;",
+            "background: #FFFFFF;",
+            "color-background: #FFFFFF;"
+          ],
+          "correctOption": "background-color: #FFFFFF;"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Colorful Style Sheets",
+            "Creative Style Sheets",
+            "Computer Style Sheets",
+            "Cascading Style Sheets"
+          ],
+          "correctOption": "Cascading Style Sheets"
+        },
+        {
+          "question": "How do you apply a style for all <p> elements in CSS?",
+          "options": [
+            "p { style: value; }",
+            "p: { style: value; }",
+            "p { property: value; }",
+            "p { value: property; }"
+          ],
+          "correctOption": "p { property: value; }"
+        },
+        {
+          "question": "Which property is used to change the font of an element?",
+          "options": [
+            "font-weight",
+            "font-family",
+            "font-style",
+            "font-size"
+          ],
+          "correctOption": "font-family"
+        },
+        {
+          "question": "Which of the following is NOT a CSS framework?",
+          "options": [
+            "Bootstrap",
+            "Tailwind CSS",
+            "Vue.js",
+            "Foundation"
+          ],
+          "correctOption": "Vue.js"
+        },
+        {
+          "question": "How can you make a list that lists its items with squares?",
+          "options": [
+            "list-style-type: square;",
+            "list-type: square;",
+            "list-style: square;",
+            "list-type: square-list;"
+          ],
+          "correctOption": "list-style-type: square;"
+        },
+        {
+          "question": "Which property is used to change the text color in CSS?",
+          "options": [
+            "text-color",
+            "color",
+            "font-color",
+            "text-style"
+          ],
+          "correctOption": "color"
+        },
+        {
+          "question": "What is the default value of the position property?",
+          "options": [
+            "absolute",
+            "fixed",
+            "relative",
+            "static"
+          ],
+          "correctOption": "static"
+        },
+        {
+          "question": "Which CSS property controls the text size?",
+          "options": [
+            "text-style",
+            "text-size",
+            "font-size",
+            "font-style"
+          ],
+          "correctOption": "font-size"
+        }
+      ]
+    },
+    {
+      "id": "ffc1",
+      "subject": "JavaScript",
+      "questions": [
+        {
+          "question": "Which method can be used to convert a JSON string into a JavaScript object?",
+          "options": [
+            "JSON.parse()",
+            "JSON.stringify()",
+            "JSON.object()",
+            "JSON.toObject()"
+          ],
+          "correctOption": "JSON.parse()"
+        }
+      ]
+    }
+  ]
+}
