@@ -45,7 +45,7 @@ function AdminDashboard() {
   };
 
   const handleLogout = () => {
-    window.location.href = '/'; // Navigate to Home.js
+    window.location.href = '/'; 
   };
 
   return (
