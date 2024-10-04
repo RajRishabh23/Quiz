@@ -53,7 +53,7 @@ function UserDashboard() {
 
   const handleAnswerChange = (e) => {
     const updatedAnswers = [...userAnswers];
-    updatedAnswers[currentPage - 1] = e.target.value; // Adjust for 0-indexing
+    updatedAnswers[currentPage - 1] = e.target.value; 
     setUserAnswers(updatedAnswers);
   };
 
@@ -224,7 +224,6 @@ function UserDashboard() {
           </div>
         </div>
 
-        {/* Only show instructions if the test is not complete */}
         {!isTestComplete && (
           <div className="bg-opacity-75 p-4 rounded-lg mt-4 w-auto">
             <h3 className="text-lg font-bold mb-4">Instructions</h3>
