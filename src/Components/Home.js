@@ -26,7 +26,7 @@ function Home() {
         backgroundPosition: "center",
       }}
     >
-      <div className="flex justify-BETetween items-center p-4">
+      <div className="flex justify-betetween items-center p-4">
         <div className="flex-1"></div>
         <button
           className="px-4 py-2 bg-red-500 text-white rounded-xl hover:bg-red-600"
