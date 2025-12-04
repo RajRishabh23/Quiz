@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import home1 from "../assets/home1.png"; 
-
+ //heelo i am rishabh don
 function SignUp() {
   const [formData, setFormData] = useState({
     fname: "",
